@@ -16,6 +16,7 @@ public:
         Eigen::Isometry3d transform;
         Eigen::Vector3d position;
         Eigen::Matrix3d rotation;
+        double roll;
         double yaw;
         double pitch;
     };
