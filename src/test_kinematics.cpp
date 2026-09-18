@@ -15,8 +15,8 @@ int main()
     OpenManipulatorXKinematics::JointVector q;
 
     q <<
-        0.2,
-        -0.5,
+        0.3,
+        -0.3,
         0.7,
         -0.2;
 
@@ -25,8 +25,7 @@ int main()
     // Forward Kinematics
     // --------------------------------------------------
 
-    auto fk =
-        kinematics.forwardKinematics(q);
+    auto fk = kinematics.forwardKinematics(q);
 
 
     std::cout
